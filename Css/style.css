@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap');
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
+
+body {
+    width: 90vw;
+    margin: 5vw auto;
+    padding: 5vw;
+    background-color: #F6F9FE;
+}
+
+header {
+    padding: 8vw 0 13vw 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img:first-of-type {
+    width: 50%;
+}
+
+header img:nth-of-type(2) {
+    width: 8%;
+}
+
+header nav {
+    display: none;
+}
+
+#main__intro {
+    text-align: center;
+    width: 100%;
+    background-color: #372865;
+    padding: 3vw;
+    color: #CCC1E6;
+    font-size: 4.5vw;
+    line-height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18vw;
+    border-radius: 9vw;
+}
+
+#main__intro a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#main__headline {
+    font-size: 9.5vw;
+    text-align: center;
+    padding: 6vw 0;
+    line-height: 12vw;
+    font-weight: 600;
+}
+
+#main__join p {
+    color: #545454;
+    text-align: center;
+    line-height: 7vw;
+    font-size: 4.1vw;
+}
+
+#main__join input {
+    height: 15vw;
+    width: 100%;
+    padding: 5vw;
+    margin: 5vw 0 3vw 0;
+}
+
+#main__join input::placeholder {
+    color: #C4C4C4;
+    font-size: 4.5vw;
+}
+
+#main__join button {
+    height: 15vw;
+    width: 100%;
+    background-color: #372865;
+    color: white;
+    font-weight: 600;
+    font-size: 4.5vw;
+    border-radius: 1.8vw;
+}
+
+footer {
+    margin-top: 10vw;
+}
+footer p {
+    font-weight: 600;
+    font-size: 4vw;
+    margin-bottom: 3.5vw;
+}
+
+#footer__companies-logos img {
+    height: 11vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+    
