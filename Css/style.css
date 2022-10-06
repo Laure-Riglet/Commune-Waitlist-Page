@@ -4,6 +4,7 @@ html {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     background-color: white;
+    box-sizing: border-box;
 }
 
 body {
@@ -86,6 +87,7 @@ nav {
     justify-content: center;
     height: 18vw;
     border-radius: 9vw;
+    margin: auto;
 }
 
 #main__intro a {
@@ -113,6 +115,8 @@ nav {
     width: 100%;
     padding: 5vw;
     margin: 5vw 0 3vw 0;
+    border-radius: 1.2vw;
+    border: 0.5px solid #CCC1E6;
 }
 
 #main__join input::placeholder {
@@ -127,7 +131,7 @@ nav {
     color: white;
     font-weight: 600;
     font-size: 4.5vw;
-    border-radius: 1.8vw;
+    border-radius: 1.2vw;
 }
 
 footer {
@@ -145,3 +149,149 @@ footer p {
     margin-bottom: 2vw;
 }
 
+@media (min-width: 600px) {
+    body {
+        width: 94vw;
+        margin: 3vw auto;
+        padding: 7vw;
+        background-color: #F6F9FE;
+        border-radius: 2vw;
+    }
+    
+    header {
+        padding-top: 8vw 0 0 0;
+        width: 100%;
+    }
+    
+    header>img {
+        height: 5vw;
+        position: absolute;
+        top: 10.5vw;
+        left: 10vw;
+        z-index: 1;
+    }
+    
+    label {
+        height: 3vw;
+        position: absolute;
+        top: 11vw;
+        right: 10vw;
+    }
+    
+    label>img {
+        height: 100%;
+    }
+    
+    .slide li a {
+        text-decoration: none;
+    }
+    
+    nav {
+        width : 100%;
+        margin-top: 0vw;
+        color: #545454;
+        font-size: 4.1vw;
+        z-index: 2;
+    }
+    
+    .slide {
+        clear:both;
+        width:100%;
+        height:0px;
+        overflow: hidden;
+        text-align: center;
+    }
+      
+    .slide li {
+        margin-top: 0vw;
+        padding : 1vw;
+    }
+      
+    #touch {
+        position: absolute; 
+        opacity: 0; 
+        height: 0px;
+    }    
+      
+    #touch:checked + .slide {
+        height: auto;
+    }
+    
+    #main__intro {
+        text-align: center;
+        width: 90%;
+        background-color: #372865;
+        padding: 3vw;
+        color: #CCC1E6;
+        font-size: 2.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 6vw;
+        border-radius: 3vw;
+    }
+    
+    #main__intro a {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    
+    #main__headline {
+        font-size: 8vw;
+        text-align: center;
+        padding: 3vw 0 0 0;
+        line-height: 10vw;
+        font-weight: 600;
+    }
+    
+    #main__join p {
+        color: #545454;
+        text-align: center;
+        line-height: 3.8vw;
+        font-size: 2.5vw;
+    }
+    
+    #main__join input {
+        display: inline-block;
+        height: 8vw;
+        width: 50vw;
+        padding: 3vw;
+        margin: 4vw 1vw 0 4vw;
+    }
+    
+    #main__join input::placeholder {
+        color: #C4C4C4;
+        font-size: 2.5vw;
+    }
+    
+    #main__join button {
+        height: 8vw;
+        width: 20vw;
+        background-color: #372865;
+        color: white;
+        font-weight: 600;
+        font-size: 2.5vw;
+        border-radius: 1vw;
+        margin-right: 4vw;
+    }
+    
+    footer {
+        margin-top: 10vw;
+        margin-bottom: 8vw;
+    }
+    footer p {
+        font-weight: 600;
+        font-size: 2.5vw;
+        margin-bottom: 3.5vw;
+    }
+    
+    #footer__companies-logos img {
+        height: 6.5vw;
+        margin-right: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media (min-width: 900)  {
+
+}
