@@ -319,18 +319,20 @@ footer p {
 @media (min-width: 1000px) {
     body {
         width: 96vw;
-        margin: 1.5vw auto;
+        min-height: 96vh;
+        margin: 2vh auto;
         padding: 3vw 10vw;
         background-color: #F6F9FE;
         border-radius: 1vw;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        align-content: space-between;
     }
     
     header {
         padding: 0;
-        margin-bottom: 5vw;
+        margin: 0 0 7vh 0;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -364,7 +366,7 @@ footer p {
     }
 
     #nav__desktop button {
-        height: 3.5vw;
+        height: 4vw;
         width: 9vw;
         background-color: #372865;
         color: white;
@@ -379,7 +381,7 @@ footer p {
         display: flex;
         flex-direction: column;
         width: 65%;
-        padding-bottom: 5vw;
+        padding-bottom: 3.5vh;
     }
 
     #main__intro {
@@ -404,7 +406,7 @@ footer p {
     #main__headline {
         font-size: 3.5vw;
         text-align: left;
-        padding: 2vw 0 0.5vw 0;
+        padding: 3vh 0 1vh 0;
         line-height: 4vw;
         font-weight: 600;
     }
@@ -423,6 +425,7 @@ footer p {
         padding: 1vw;
         margin: 0;
         border-radius: 0.2vw;
+        font-size: 1.2vw;
     }
     
     #main__join input::placeholder {
@@ -431,7 +434,7 @@ footer p {
     }
     
     #main__join button {
-        height: 3.5vw;
+        height: 4vw;
         width: 9vw;
         background-color: #372865;
         color: white;
@@ -449,11 +452,11 @@ footer p {
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: center;
+        background-position-x: right;
     }
     
     footer {
-        margin-top: 2vw;
-        margin-bottom: 0;
+        margin: 0;
         width: 100%;
     }
     footer p {
